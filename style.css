@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px auto;
+}
+
+.header{    
+    padding: 0px 200px 0px 200px;
+    width: 1920px;
+    height: 50px;
+    position: absolute;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    text-align: right;
+    justify-content: right;
+    margin-left: 000px;
+}
+
+.headerp1{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.07em;
+    text-align: right;
+}
+.headerp2{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.07em;
+    text-align: right;
+}
+.headerp3{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.07em;
+    text-align: right;
+}
+.headerp4{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.07em;
+    text-align: right;
+}
+.headerp5{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.07em;
+    text-align: right;
+    margin-right: 200px;
+}
+
+.headerimg{
+    margin-right: 1400px;
+    position: absolute;
+
+}
+
+/* header-end */
+
+.main{
+    position: absolute;
+    background-image: url(bg.jpeg);
+    width: 1922px;
+    height: 1080px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -10px;
+    background-repeat: no-repeat;
+}
+
+.mainp{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    width: 560px;
+    height: 62px;
+    margin-left: 1160px;
+    position: absolute;
+    top: 400px;
+}
+
+.mainbutton{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    width: Hug (267px)px;
+    height: Hug (59px)px;
+    padding: 14px 53px 14px 53px;
+    gap: 10px;
+    border-radius: 32px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin-left: 1160px;
+    border: 1px solid #262323;
+    background-color: transparent;
+}
+
+.mainh2{
+    font-family: Montserrat;
+    font-weight: 00px;
+    font-size: 90px;
+    width: 525px;
+    height: 417px;
+    top: 138px;
+    left: 698px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    text-align: center;
+    margin-left: 688px;
+    margin-top: 108px;
+}
+
+@media (max-width: 393px){
+    .header{
+        max-width: 376px;
+        display: block;
+        margin-left: 1000px;
+    }
+    .headerp1{
+        margin-left: 1100px;
+        position: relative;
+        left: 500px;
+        text-align: right;
+        opacity: 0%;
+        right: 0px;
+    }
+    .headerp2{
+        position: absolute;
+        margin-left: 900px;
+    }
+    .headerp3{
+        position: absolute;
+        margin-left: 900px;
+    }
+    .headerp4{
+        position: absolute;
+        margin-left: 900px;
+    }
+    .headerp5{
+        position: absolute;
+        margin-left: 900px;
+    }
+    
+    .headerimg{
+        text-align: center;
+        position: absolute;
+       margin-left: -500px;
+        margin-right: 100px;
+    }
+
+    .main{
+        display: block;
+    }
+
+    .mainp{
+        margin-top: 100px;
+       position: relative;
+        text-align: center;
+        margin-right: 300px;
+    }
+
+    .mainh2{
+        font-weight: 400px;
+        font-size: 90px;
+        max-width: 200px;
+        position: relative;
+        margin-right: 2000px;
+    }
+
+    
+}
